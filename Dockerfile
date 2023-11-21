@@ -5,4 +5,4 @@ FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/
 
 # 暴露容器的端口
-EXPOSE 80
+EXPOSE 8081
